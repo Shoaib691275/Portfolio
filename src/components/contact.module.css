@@ -1,0 +1,106 @@
+/* global.css */
+
+.contact {
+    background-color: #232425;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .contactContainer {
+    text-align: center;
+  }
+  
+  .headingIntro {
+    position: relative;
+    bottom: 50px;
+    left: 750px;
+    font-size: 20px;
+    color: #764971;
+    
+    font-weight: bolder;
+  }
+  
+  .skills {
+    position: relative;
+    top: 0px;
+    left: 475px;
+    font-size: 40px;
+    color: #E8E8E8;
+    font-weight: bolder;
+    padding-top: 0;
+  }
+  
+  .contactDescription {
+    padding-top: 10px;
+    color: #E8E8E8;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 20px #45484A;
+    font-size: 14px;
+
+
+  }
+  
+  .contactLinks {
+    position: relative;
+    top: 20px;
+    left: 570px;
+    color: #764971;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .contactLinkItem {
+    border: 2px solid #45484A;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #595C5F;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #E8E8E8;
+  }
+  
+  .contactLinkItem img {
+    height: 30px;
+  }
+  
+  .contactLinkItem p {
+    font-weight: lighter;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0;
+  }
+  
+  .contactLinkItem a {
+    color: #E8E8E8;
+    text-decoration: none;
+  }
+  
+  .contactDivider {
+    position: relative;
+    bottom: -130px;
+    width: 98%;
+    padding-top: 20px;
+    color: #764971;
+    z-index: 1;
+  }
+  
+  .contactCopyright {
+    color: #E8E8E8;
+    position: relative;
+    bottom: -120px;
+    right: -670px;
+  }
+  .mail{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    
+  }

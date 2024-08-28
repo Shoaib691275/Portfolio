@@ -1,0 +1,31 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #764971;
+    font-weight: bolder;
+    text-shadow: 2px 2px 10px #45484A;
+    background-color: #87898a;
+    border: 3px solid #764971;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, width 0.3s, transform 0.3s;
+    position: fixed;
+    width: 50px;
+    bottom: 100px;
+    right: 0px;
+    text-align: center; 
+    white-space: nowrap;
+  }
+  
+  .button:hover {
+    background-color: #232425;
+    color: #764971;
+    width: 120px; /* Expanded width to fit text */
+    text-shadow: 2px 2px 10px #45484A;
+    transform: scale(1.05);
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
